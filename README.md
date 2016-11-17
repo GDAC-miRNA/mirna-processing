@@ -18,10 +18,16 @@ We want: hsa_MTI.xlsx
 
 **TargetScan 7.1 predicted sites: 2 files**  
 <http://www.targetscan.org/cgi-bin/targetscan/data_download.vert71.cgi>  
-We want two files:  
-Conserved site context++ scores - (17.2 MB)  
-Nonconserved site context++ scores - (530.65 MB)  
+We want two files. For filtering miR-gene anticorrelations, we'll use both:  
+Conserved site context++ scores - (17.2 MB, 1.5 M rows)  
+Nonconserved site context++ scores - (530.65 MB, 38.3 M rows)  
 Note that we will not need all columns from these files. 
+
+We probably want the following general files too, and they are not large, so should be easy to work with. 
+miR Family - (0.17 MB)
+Gene info - (0.88 MB)
+UTR genome coordinates - (0.58 MB)
+3P-seq tag info - (8.57 MB)
 
 **MatrixEQTL**  
 <https://CRAN.R-project.org/package=MatrixEQTL>  
