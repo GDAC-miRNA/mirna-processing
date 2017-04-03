@@ -11,7 +11,7 @@ library(tidyr) #for spread
 
 
 options("googleAuthR.scopes.selected" = c("https://www.googleapis.com/auth/bigquery","https://www.googleapis.com/auth/devstorage.full_control"))
-service_token = gar_auth_service(json_file = "/Users/varsha/Documents/miRNA/scripts/ServiceAccountKey/miRNA project-c2d2cf5124f1.json")
+service_token = gar_auth_service(json_file = "/Users/varsha/Documents/miRNA/mirna-processing/scripts/ServiceAccountKey/miRNA project-c2d2cf5124f1.json")
 #args = commandArgs(trailingOnly = T)
 #parse args
 # queryProject = ""
