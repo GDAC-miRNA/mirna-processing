@@ -1,0 +1,10 @@
+name: miRNA_hg19vshg38
+title:
+account: isb-cgc
+server: shinyapps.io
+appId: 171930
+bundleId: 789784
+url: https://isb-cgc.shinyapps.io/miRNA_hg19vshg38/
+when: 1492199531.21842
+asMultiple: FALSE
+asStatic: FALSE
